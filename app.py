@@ -81,62 +81,42 @@ elif page == "Families":
 
     st.header("Request a Caregiver")
 
-    name = st.text_input("Your Name")
+    st.write("""
+We connect families with trusted nannies, housekeepers, and caregivers.
 
-    phone = st.text_input("Phone")
+Click below to submit your request.
+""")
 
-    email = st.text_input("Email")
-
-    service = st.selectbox(
-        "Service Needed",
-        [
-            "Nanny",
-            "Housekeeper",
-            "Elder Care"
-        ]
-    )
-
-    details = st.text_area("Tell us what you need")
-
-    if st.button("Submit Request"):
-        st.success("Thank you! We will contact you soon.")
+    st.markdown("""
+### 👉 Apply Here
+https://forms.gle/X36yA25gmfpdRhR5A
+""")
 
 elif page == "Other Employers":
 
     st.header("Request an Employee")
 
-    name = st.text_input("Your Name")
+    st.write("""
+We connect employers with trusted Warehouse Associates, Office Assistants, Restaurant Staff, and more.
+Click below to submit your request.
+""")
 
-    phone = st.text_input("Phone")
-
-    email = st.text_input("Email")
-
-    position = st.selectbox(
-        "Position Needed",
-        [
-            "Warehouse Associate",
-            "Office Assistant",
-            "Restaurant Staff"
-        ]
-    )
-
-    details = st.text_area("Tell us what you need")
-
-    if st.button("Submit Request"):
-        st.success("Thank you! We will contact you soon.")
+    st.markdown("""
+### 👉 Apply Here
+https://forms.gle/XmcHx4YiJWG2FJYi6
+""")
 
 elif page == "Looking for Work - Apply Now":
 
     st.header("Apply for Employment")
 
-    name = st.text_input("Full Name")
+    st.write("We help qualified individuals find employment with families and businesses. Click below to submit your application.")
 
-    phone = st.text_input("Phone Number")
-
-    experience = st.text_area("Experience")
-
-    if st.button("Submit Application"):
-        st.success("Application received!")
+    st.markdown("""
+### 👉 Apply Here
+https://forms.gle/edAw8KJ9aTZe4XXLA
+""")
+    
 
 elif page == "Contact":
 
@@ -144,7 +124,7 @@ elif page == "Contact":
 
     st.write("📞 Phone: (555) 555-5555")
 
-    st.write("📧 Email: info@example.com")
+    st.write("📧 Email: caringgememploymentagency@gmail.com")
 
     st.write("Business Hours")
 
