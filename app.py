@@ -21,7 +21,8 @@ page = st.sidebar.selectbox(
         "Home",
         "Services",
         "Families",
-        "Caregivers",
+        "Other Employers",
+        "Looking for Work - Apply Now",
         "Contact"
     ]
 )
