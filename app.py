@@ -12,6 +12,7 @@ st.write(
     """
 Helping employers find trusted employees and helping employees
 find meaningful employment.
+We are a New York City licensed employment agency
 """
 )
 
